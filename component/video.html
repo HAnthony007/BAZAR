@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documet</title>
+</head>
+<body>
+    <style>
+        video {
+        position: relative;
+        display: block;
+        }
+
+        video::-webkit-media-controls {
+        display:none !important;
+        }
+        
+        video {
+        position: relative;
+        display: block;
+        }
+
+        video::-webkit-media-controls {
+        display:none !important;
+        }
+
+        video::-webkit-media-controls-start-playback-button,
+        video::-webkit-media-controls-play-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        }
+
+        video::-moz-media-controls-start-playback-button,
+        video::-moz-media-controls-play-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        }
+                
+        video::-ms-media-controls-start-playback-button,
+        video::-ms-media-controls-play-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        }
+    </style>
+
+    <video width="640" height="360" controls>
+        <source src="/Assets/video/video1.mp4" type="video/mp4">
+        
+        <h1> 
+        Votre navigateur ne supporte pas la lecture de videos.
+        </h1>
+    </video>
+</body>
+</html>
